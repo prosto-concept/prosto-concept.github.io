@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/people-v3.BlZVRdln.js","_astro/scene.CAcj5bII.js"])))=>i.map(i=>d[i]);
+import{a as e,d as t}from"./scene.CAcj5bII.js";import{t as n}from"./preload-helper.B3nfOi5I.js";e()&&document.querySelectorAll(`[data-pv3]`).forEach(e=>t(e,()=>n(()=>import(`./people-v3.BlZVRdln.js`).then(t=>t.init(e)),__vite__mapDeps([0,1])).catch(()=>e.classList.add(`is-static`))));
