@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/chaos-scene.Bi02J4vT.js","_astro/scene.CAcj5bII.js"])))=>i.map(i=>d[i]);
+import{a as e,d as t}from"./scene.CAcj5bII.js";import{t as n}from"./preload-helper.B3nfOi5I.js";var r=document.getElementById(`problem`);r&&e()&&t(r,()=>n(()=>import(`./chaos-scene.Bi02J4vT.js`).then(e=>e.init(r)),__vite__mapDeps([0,1])));

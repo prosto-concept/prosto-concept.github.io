@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/tryfree.BDNRsG7P.js","_astro/scene.CAcj5bII.js"])))=>i.map(i=>d[i]);
+import{d as e}from"./scene.CAcj5bII.js";import{t}from"./preload-helper.B3nfOi5I.js";var n=document.getElementById(`try-scene`);n&&e(n,()=>t(()=>import(`./tryfree.BDNRsG7P.js`).then(e=>e.init(n)),__vite__mapDeps([0,1])).catch(()=>{n.querySelector(`[data-article]`)?.classList.add(`is-open`),n.querySelectorAll(`[data-toggle], [data-practice]`).forEach(e=>e.hidden=!0)}));

@@ -1,0 +1,12 @@
+{
+  "name": "Простое Сообщество",
+  "short_name": "Простое",
+  "icons": [
+    { "src": "/favicon/favicon-96x96.png", "sizes": "96x96", "type": "image/png" },
+    { "src": "/favicon/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#EAF1F4",
+  "background_color": "#EAF1F4",
+  "display": "standalone",
+  "start_url": "/"
+}
