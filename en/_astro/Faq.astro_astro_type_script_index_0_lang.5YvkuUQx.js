@@ -1,0 +1,1 @@
+import{r as e,t}from"./analytics.cWNJE3CO.js";document.querySelectorAll(`#faq details[data-faq-index]`).forEach(n=>n.addEventListener(`toggle`,()=>{n.open&&e(t(`faq`),{cta:`faq`,q:Number(n.dataset.faqIndex)})}));

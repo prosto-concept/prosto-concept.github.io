@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/results._MkWrA__.js","_astro/scene.CAcj5bII.js"])))=>i.map(i=>d[i]);
+import{d as e}from"./scene.CAcj5bII.js";import{t}from"./preload-helper.Cj8Q4wo5.js";var n=document.getElementById(`results`);n&&e(n,()=>t(()=>import(`./results._MkWrA__.js`).then(e=>e.init(n)),__vite__mapDeps([0,1])).catch(()=>{}));

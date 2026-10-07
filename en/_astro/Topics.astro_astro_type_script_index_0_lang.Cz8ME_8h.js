@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/topics.CFi1cuJr.js","_astro/scene.CAcj5bII.js"])))=>i.map(i=>d[i]);
+import{d as e}from"./scene.CAcj5bII.js";import{t}from"./preload-helper.Cj8Q4wo5.js";var n=document.getElementById(`topics`);if(n){let r=!1,i=()=>{r||(r=!0,t(()=>import(`./topics.CFi1cuJr.js`).then(e=>e.init(n)),__vite__mapDeps([0,1])))};n.addEventListener(`click`,e=>{let t=e.target?.closest(`[data-topic-tab]`);t&&!n.dataset.topicsReady&&(n.dataset.topicsPending=t.dataset.topicTab||``,i())}),e(n,i,`1400px 0px`)}

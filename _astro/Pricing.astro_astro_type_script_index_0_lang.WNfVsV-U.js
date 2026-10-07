@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["_astro/pricing.Cfvp59bA.js","_astro/store.BOVCS6GF.js","_astro/analytics.DiZRfjJj.js","_astro/site.B3G_aYhL.js","_astro/scene.CAcj5bII.js"])))=>i.map(i=>d[i]);
+import{d as e}from"./scene.CAcj5bII.js";import{t}from"./preload-helper.B3nfOi5I.js";var n=document.getElementById(`pricing-card`);n&&e(n,()=>t(()=>import(`./pricing.Cfvp59bA.js`).then(e=>e.init(n)),__vite__mapDeps([0,1,2,3,4])).catch(()=>document.getElementById(`pricing`)?.classList.add(`pr-fallback`)));

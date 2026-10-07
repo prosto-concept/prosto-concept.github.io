@@ -1,1 +1,0 @@
-var e={tier:`tier1`,currency:`rub`},t=new Set,n={get:()=>({...e}),set(n){let r={...e};Object.assign(e,n),(r.tier!==e.tier||r.currency!==e.currency)&&t.forEach(t=>t({...e},r))},subscribe(n){return t.add(n),n({...e},{...e}),()=>t.delete(n)}};export{n as t};
